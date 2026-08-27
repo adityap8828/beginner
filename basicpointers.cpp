@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n=10;
+    int *ptr=&n;
+    int **ptr2=&ptr;
+    cout<<n<<endl;
+    cout<<&n<<endl;
+    cout<<ptr<<endl;
+    cout<<*ptr<<endl;
+    cout<<**ptr2<<endl;
+    cout<<*ptr2<<endl;
+    cout<<ptr2<<endl;
+    return 0;
+}
