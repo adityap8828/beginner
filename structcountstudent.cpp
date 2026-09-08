@@ -9,8 +9,8 @@ struct student{
 
 int main(){
     student s[5];
-    cout<<"~~student details~~"<<endl;
     for(int i=0;i<5;i++){
+        cout<<"~~student details~~"<<endl;
         cout<<"enter name:";
         cin>>s[i].name;
         cout<<"enter roll number:";
